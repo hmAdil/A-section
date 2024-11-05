@@ -11,7 +11,7 @@ DM on whatsapp or create a **PR**(Pull request) to extra documented notes be mer
   
 - *Matlab, being paid, can (for now) be only used in college labs. When SRN@pesu.pes.edu g-workspace account is there then this page will be updated*
   
-- Python 3.13: https://www.python.org/downloads/release/python-3120/
+- Python 3.12: https://www.python.org/downloads/release/python-3120/
 - Anaconda3 (For JupyterLab (preferable in comparison to JupyterNotebook)): https://www.anaconda.com/download/success
 - then after installing and adding it to path easily, type in terminal: conda install anaconda::jupyter
 - or VSCode: https://code.visualstudio.com/
