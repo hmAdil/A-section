@@ -10,6 +10,7 @@ Here’s a list of recommended software and tools for assignments.
 > 🔄 **Note**: Links will be updated bi-weekly or monthly as needed, so keep an eye out! 👀
 
 - **[Scilab 2025.0.0](https://www.scilab.org/download/scilab-2025.0.0)** - A free and open-source tool for numerical computation.
+- **[ChemSketch 2024](https://drive.google.com/file/d/1g4OjWF7BlxP7h9ttdLJzgmtvMQr-qyW2/view?usp=sharing)** - A community application for rendering chemical diagrams.
 - **Matlab** - *Currently available in college labs only.* Once SRN@pesu.pes.edu accounts are integrated with G-Workspace, updates will follow here.
 - **[Python 3.12](https://www.python.org/downloads/release/python-3120/)** - Core programming language for coding assignments. 🐍
 - **[Anaconda3](https://www.anaconda.com/download/success)** - Recommended for using JupyterLab, preferred over Jupyter Notebook for our projects.
