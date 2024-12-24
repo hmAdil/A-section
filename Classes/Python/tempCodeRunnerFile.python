@@ -1,0 +1,45 @@
+# def process_data(a, b, c):
+#     print(a, b, c)
+
+# data = {"a": 10, "b": 20, "c": 30}
+# process_data(**data)  # Passes dictionary keys as arguments.
+# process_data(*data) # Passes dictionary values as arguments.
+
+# list1 = [1, 2, 3]
+# list2 = [4, 5, 6]
+# merged = [*list1, *list2]
+# print(merged)  # Output: [1, 2, 3, 4, 5, 6]
+
+# dict1 = {"a": 1, "b": 2}
+# dict2 = {"c": 3, "d": 4}
+# merged = {**dict1, **dict2}
+# print(merged)  # Output: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+
+# What are lists, and how do they differ from tuples?
+# Lists are a group of ordered, mutable entities inside usage of [](square brackets). Sets differ as they are immutable and are stored inside parentheses().
+
+# Write a Python program to reverse a list.
+# a=input("Enter List items separated by commas(,): ").strip().split(',')
+# print("Original List:", a, "\nand reversed list:", a[::-1])
+
+# s1 = {1, 2, 3}
+# s2 = {2, 3, 4}
+# print(s1 & s2)  # Output: {2, 3}
+# print(s1 | s2)  #Output: {1,2,3,4}
+
+# Recursion
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+try:
+    a = int(input("Enter a Number whose factorial is to be calculated: "))
+    print(factorial(a))
+except ValueError:
+    print("NaN. Please enter a valid number.")
+except RecursionError:
+    print("RecursionError: Input too large for factorial calculation.")
+
+
+
+
