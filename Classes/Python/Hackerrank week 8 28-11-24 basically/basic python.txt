@@ -1,0 +1,105 @@
+
+1. Python: Missing Characters
+Implement a function that takes a string that consists of lowercase letters and digits and returns a string that consists of all digits and lowercase English letters that are not present in the string. The digits should come first, in ascending order, followed by characters, also in ascending order.
+Example
+s = "7985interdisciplinary12"
+The returned string is "0346bfghjkmoquvwxz". It contains all missing digits in ascending order, followed by missing characters in ascending order.
+Function Description
+Complete the function missingCharacters in the editor below.
+missing Characters has the following parameter(s): string s: a string
+Return
+string: a string as described above
+
+Constraints
+• 0≤ length of s≤ 100
+• Each character s[i] is in the range [a-z] or [0-9]. • The resulting string will be non-empty
+▾ Input Format Format for Custom Testing
+Input from stdin will be processed as follows and passed to the function.
+The first line contains a string s.
+▾ Sample Case 0
+Sample Input 0
+8hypotheticall024y6wxz
+Sample Output 0
+13579bdfgjkmnqrsuv
+Explanation 0
+All lowercase English letters and digits that are not present in s, when ordered are
+"13579bdfgjkmnqrsuv".
+
+
+▾ Sample Case 1 Sample Input 1
+0123456789
+Sample Output 1
+abcdefghijklmnopqrstuvwxyz
+Explanation 1
+The input string contains all the digits but no letters. The result is a string of all lowercase English letters in alphabetic order.
+▾ Sample Case 2
+Sample Input 2
+abcdefghijklmnopqrstuvwxyz007
+Sample Output 2
+12345689
+Explanation 2
+The input string contains all letters and the digits O and 7. The result is a string of all digits except 0 and 7, i.e. "12345689".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q2.
+
+2. Python: String Transformation
+There is a sentence that consists of space-separated strings of upper and lower case English letters. Transform each string according to the given algorithm and return the new sentence.
+Each string should be modified as follows:
+• The first character of the string remains unchanged
+• For each subsequent character, say x, consider a letter preceding it, say y: • If y precedes x in the English alphabet, transform x to uppercase
+• If x precedes y in the English alphabet, transform x to lowercase
+If x and y are equal, the letter remains unchanged
+Example
+sentence = "coOL dog"
+The first letters of both words remain unchanged. Then, for the word "coOL" the first "o" is made uppercase because the letter preceding it, "c", comes earlier in the alphabet. Next, the case of the second "O" is unchanged because the letter preceding is also "o", and finally the "L" is made lowercase because the letter preceding it, "O", comes later in the alphabet. The second word, "dog", is transformed according to the same rules. Return the resulting sentence 'cool dog'.
+Function Description
+Complete the function transformSentence in the editor below. The function must return a string representing the resulting sentence.
+transform Sentence has the following parameter(s):
+string sentence: the input sentence
+
+
+Constraints
+• 1 ≤ length of sentence ≤ 100
+• It is guaranteed that the sentence consists of upper and lower case English letters and spaces.
+• Each sentence starts with a letter, ends with a letter, and no two consecutive characters are spaces.
+▾ Input Format Format for Custom Testing
+The first line contains a single string, sentence.
+▾ Sample Case 0
+Sample Input 0
+a Blue MOON
+Sample Output 0
+a BLUE MOON
+Explanation 0
+The input sentence is "a Blue MOON". The first letters of all words remain unchanged. Then, for the word "Blue" the "I" is made uppercase because the letter preceding it, "b", comes earlier in the alphabet. Next, the "u" becomes uppercase because the letter preceding it, "I", comes earlier in the alphabet. Finally, the "e" remains lowercase because the letter preceding it comes later in the alphabet. For the second word, "MOON", only its last letter, "n", changes to lower case because the letter preceding it comes later in the alphabet.
+
+
+▾ Sample Case 1 Sample Input 1
+ab CB GG
+Sample Output 1
+aB cb GG
+Explanation 1
+The input sentence is "aB cb GG". The first letters of all words remain unchanged. For the word "aB" the "b" becomes uppercase because the letter preceding it, "a", comes earlier in the alphabet. For the word "cB", the "B" becomes lowercase because the letter preceding it, "c", comes later in the alphabet. Finally, for the word "GG", the second "G" remains unchanged as it matches the letter preceding it.
+▾ Sample Case 2
+Sample Input 2
+x y z
+Sample Output 2
+x y z
+Explanation 2
+The input sentence is "x y z". All the words in the sentence consist of only one letter so none of them is changed and the result is "x y z".
+
