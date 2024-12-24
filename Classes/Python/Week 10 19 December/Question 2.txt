@@ -1,0 +1,37 @@
+
+Combination Sum: Unique Solutions
+
+You are given a list of positive integers nums and an integer target. Your task is to write a function find_combinations(nums, target) that finds all unique combinations of numbers from the list nums that sum up to the target. Each number in nums can be used multiple times in a combination.
+
+The combinations should be returned as a list of lists, where each list contains numbers that sum up to the target. The order of numbers in each combination does not matter, and combinations must not be repeated.
+
+Input Format
+
+nums - list of numbers target - the target sum of unique combinations
+
+Constraints
+
+The numbers in nums are positive integers and 1 ≤ len(nums) ≤ 10 The combinations must not have duplicate sets (order of numbers within a set does not matter)
+
+Output Format
+
+Return a list of unique combinations where each combination is a list of integers that sum up to the target. Each combination list should be sorted in ascending order. The combinations should be unique, meaning no duplicate combinations will appear in the result.
+
+Sample Input 0
+
+2 3 6 7
+7
+
+Sample Output 0
+
+[[2, 2, 3], [7]]
+
+Sample Input 1
+
+2 3 5
+8
+
+Sample Output 1
+
+[[2, 2, 2, 2], [2, 3, 3], [3, 5]]
+

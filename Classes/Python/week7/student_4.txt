@@ -1,0 +1,10 @@
+array sorted successfully: [1, 2, 3, 4, 5]
+Prime numbers found: [2, 3, 6, 7, 11]
+Fibonacci sequence: [1, 1, 2, 3, 6, 8]
+Sum of elements: 235
+Maximum value: 987
+Minimum value: 12
+Average: 456.78
+Median: 334
+Mode: [23, 45] (incomplete)
+Standard deviation: 67.89

@@ -1,0 +1,44 @@
+Enter your code here. Read input from STDIN. Print output to STDOUT
+Write a function make_multiplier(factor) that returns a closure. The closure should take a number as input and return that number multiplied by the factor. Demonstrate how you can use this to create a double and triple multiplier.
+
+In case you still don't understand, read on:
+
+What is a closure? A closure is a function that remembers the environment in which it was created It can access variables from its outer (enclosing) scope even after that scope has finished executing This allows for creating dynamic, configurable functions
+
+Approach: Define a function make_multiplier that takes a factor as an input parameter. Create an inner function inside make_multiplier which should take a parameter 'x' which is the number to be multiplied. It has access to factor from the outer function's scope. Define functions double and triple. The user must choose either multiplier & then input the number
+
+If you still don't understand, please contact your TA and no cheating!
+
+Input Format
+
+multiplier(double/triple)
+
+number
+
+Constraints
+
+-10^4 ≤ input ≤ 10^4; input is a non-zero integer
+
+Output Format
+
+Should be an integer.
+
+Sample Input 0
+
+double
+5
+
+Sample Output 0
+
+10
+
+Sample Input 1
+
+triple
+4
+
+Sample Output 1
+
+12
+
+

@@ -1,0 +1,30 @@
+Write a decorator validate_positive(func) that ensures the function it wraps is only called with positive numbers as arguments. Apply it to a function square_root(x) that computes the square root of a number.
+
+Input Format
+
+A single integer or float x that represents the number whose square root is to be calculated.
+
+Constraints
+
+-10^6 ≤ x ≤ 10^6 The input must be a positive number; otherwise, a ValueError is raised.
+
+Output Format
+
+If the input is valid, return the square root of x as a float. If the input is invalid (non-positive), raise a ValueError with the message: "Input must be a positive number".
+
+Sample Input 0
+
+16
+
+Sample Output 0
+
+4.0
+
+Sample Input 1
+
+-4
+
+Sample Output 1
+
+ValueError: Input must be a positive number
+
